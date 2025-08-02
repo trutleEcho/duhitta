@@ -1,0 +1,15 @@
+/* TEAM */
+    Developer: Corner Softwares
+    Contact: trichup20@gmail.com
+    From: India
+
+/* SITE */
+    Last update: 2025/08/02
+    Language: English
+    Doctype: HTML5
+    IDE: Visual Studio Code
+    Standards: HTML5, CSS3, JavaScript ES6+
+    Components: Next.js, React, TypeScript, Tailwind CSS
+    Software: Node.js, npm
+    Industry: Fashion & E-commerce
+    Brand: Duhitta - Where Modern Meets Tradition
