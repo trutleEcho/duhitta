@@ -26,7 +26,7 @@ export default function Header() {
                         info@duhitta.com
                     </span>
                     <span className="font-semibold text-sm text-black/50">
-                        (+91) 90115 94612
+                        (+91) 90228 78685
                     </span>
                 </motion.div>
 
@@ -36,7 +36,7 @@ export default function Header() {
                     animate={{opacity: 1, y: 0}}
                     transition={{delay: 0.4, duration: 0.6}}
                 >
-                    <Image src="/logo.png" alt="logo" width={256} height={64}/>
+                    <Image src="/icons/duhitta_logo.png" alt="logo" width={256} height={64}/>
                 </motion.div>
 
                 {/* Socials */}

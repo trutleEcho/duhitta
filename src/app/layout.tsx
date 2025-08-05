@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     template: "%s | Duhitta"
   },
   icons: {
-    icon: '/icons/DUHITTA_FAV_64x64.png'
+    icon: '/icons/duhitta_fav.png'
   },
   description: "Duhitta is a fashion brand made for women by women, offering modern yet ethnic and traditional wear that celebrates cultural heritage with contemporary style.",
   keywords: ["ethnic fashion", "traditional wear", "women's clothing", "modern ethnic", "cultural fashion", "traditional dresses", "ethnic wear", "women's fashion", "cultural clothing", "modern traditional"],
@@ -91,7 +91,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/icons/DUHITTA_FAV_64x64.png" type="image/png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/icons/duhitta_fav.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/icons/duhitta_fav.png" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />

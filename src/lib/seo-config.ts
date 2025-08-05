@@ -63,7 +63,7 @@ export const seoConfig = {
   images: {
     default: '/og-image.jpg',
     twitter: '/twitter-image.jpg',
-    logo: '/logo.png',
+    logo: '/icons/duhitta_logo.png',
     favicon: '/favicon.ico',
     appleTouchIcon: '/apple-touch-icon.png',
   },
