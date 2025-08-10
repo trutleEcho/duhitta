@@ -66,7 +66,7 @@ export default function ComingSoon() {
                 </motion.p>
 
                 <motion.a
-                    href="https://wa.me/919011594612" // change this to your number
+                    href="https://wa.me/919022878685" // change this to your number
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 mt-8 px-6 py-3 rounded-full bg-green-600/80 text-white font-medium shadow-lg hover:bg-green-700/50 transition-colors"
