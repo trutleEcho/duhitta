@@ -43,7 +43,7 @@ export default function ComingSoon() {
         <section
             id="coming-soon"
             ref={ref}
-            className="relative w-full h-screen flex items-center justify-center overflow-hidden px-4"
+            className="relative w-full my-24 flex items-center justify-center overflow-hidden px-4"
         >
             <motion.div
                 className="z-10 flex flex-col items-center text-center"

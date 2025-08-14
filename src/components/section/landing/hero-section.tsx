@@ -56,7 +56,7 @@ export default function HeroSection() {
                     whileTap={{ scale: 0.95 }}
                     variants={floatIn}
                 >
-                    <a href="#coming-soon">Explore the Collection</a>
+                    <a href="#collection">Explore the Collection</a>
                 </motion.button>
             </motion.div>
         </section>

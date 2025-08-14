@@ -1,7 +1,11 @@
+'use client'
+
 import Header from "@/components/layout/header";
 import HeroSection from "@/components/section/landing/hero-section";
 import AnimatedBackground from "@/components/ui/animated-background";
 import ComingSoon from "@/components/section/landing/coming-soon";
+import CollectionSection from "@/components/section/landing/collection-section";
+import Footer from "@/components/layout/footer";
 
 export default function Home() {
   return (
@@ -9,7 +13,9 @@ export default function Home() {
           <AnimatedBackground>
               <Header/>
               <HeroSection/>
+              <CollectionSection/>
               <ComingSoon/>
+              <Footer/>
           </AnimatedBackground>
       </section>
   );

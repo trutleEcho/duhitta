@@ -12,7 +12,7 @@ export default function AnimatedBackground({ children }: AnimatedBackgroundProps
       <div className="relative w-full h-full overflow-y-scroll overflow-x-hidden">
         {/* Animated Gradient Background */}
         <motion.div
-            className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_30%_30%,#ffdee9_0%,#b5fffc_100%)] blur-2xl opacity-40 animate-gradientMove"
+            className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_30%_30%,#ffdee9_0%,#d5fffc_100%)] blur-2xl opacity-40 animate-gradientMove"
             initial={{ scale: 1 }}
             animate={{ scale: 1.1 }}
             transition={{

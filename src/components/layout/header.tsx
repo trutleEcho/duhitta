@@ -7,6 +7,7 @@ import {motion} from "framer-motion";
 import Link from "next/link";
 
 export default function Header() {
+
     return (
         <motion.header
             className="w-full flex justify-center"
@@ -31,13 +32,20 @@ export default function Header() {
                 </motion.div>
 
                 {/* Logo */}
+                {/* Logo that slides to the right */}
                 <motion.div
-                    initial={{opacity: 0, y: -30}}
-                    animate={{opacity: 1, y: 0}}
-                    transition={{delay: 0.4, duration: 0.6}}
+                    initial={{ opacity: 0, x: -30 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 0.4, duration: 0.6 }}
                 >
-                    <Image src="/icons/duhitta_logo.png" alt="logo" width={256} height={64}/>
+                    <Image
+                        src="/icons/duhitta_logo.png"
+                        alt="logo"
+                        width={180}
+                        height={80}
+                    />
                 </motion.div>
+
 
                 {/* Socials */}
                 <motion.div
