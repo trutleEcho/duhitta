@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
                 {/* Left: Company Info */}
                 <div className="flex flex-col items-center md:items-start text-center md:text-left gap-1">
-                    <span className="font-semibold">Duhitta <span className="text-muted-foreground/50">| v0.1.0</span></span>
+                    <span className="font-semibold">Duhitta <span className="text-muted-foreground/50">| v0.1.1</span></span>
                     <span>© 2025 Duhitta</span>
                     <span>All rights reserved.</span>
                     <span className="text-xs">

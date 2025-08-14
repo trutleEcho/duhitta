@@ -1,7 +1,7 @@
 // In your organization page
 import {notFound} from 'next/navigation'
-import OrganizationNotFound from "../components/ui/organization-not-found";
+import NotFoundSection from "../components/ui/not-found-section";
 
 export default async function OrganizationPage() {
-    return <OrganizationNotFound/>
+    return <NotFoundSection/>
 }
